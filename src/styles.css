@@ -1,0 +1,105 @@
+/* FONTES */
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&family=Ubuntu&display=swap');
+
+*  {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: 1;
+}
+
+body {
+    background-image: url("../img/mcr.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+}
+
+
+h1 {
+    padding: 2rem;
+}
+.container {
+    text-align: center;
+    font-family: Raleway;
+}
+
+
+input {
+    margin: 1rem;
+}
+
+.card {
+    width: 200px;
+    height: 350px;
+    background-color: rgba(0, 0, 0, 0.826);
+    border-radius: 3px;
+    margin: 2rem;
+    display: inline-block;
+    color: red;
+    transition: all 1s ease-in-out;
+    box-shadow: rgba(140, 17, 17, 0.774) 0px 5px 15px;;
+}
+
+.text_card {
+    line-height: 1.2rem;
+    letter-spacing: 0.1rem;
+    box-sizing: border-box;
+    padding: 2rem;
+    font-size: 8pt;
+    padding: 30px 0;
+
+}
+
+.img_album {
+    margin-top: 1rem;
+    width: 180px;
+    height: 180px;
+}
+
+.container_album{
+    box-sizing: border-box;
+}
+
+.card:hover{
+    background-color: yellow;
+    scale: 1.1;
+}
+
+.button {
+    font-family: Ubuntu;
+    width: 100px;
+    height: 30px;
+    border: 0px solid;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    transition: all 0.6s ease-in-out;
+}
+
+.button:hover{
+    background-color: red;
+    opacity: 0.3;
+}
+
+.form{
+    padding: 2rem;
+    color: black;
+    border-radius: 1rem;
+}
+
+.container{
+    background-color:rgba(254, 240, 247, 0.623);
+    width: 800px;
+    margin: 0 auto;
+}
+input[type='text'] {
+    height: 1.5rem;
+    width: 12rem;
+    margin: 0.7rem;
+    border: 0.5px solid black;
+    border-radius: 0.5rem;
+  }
