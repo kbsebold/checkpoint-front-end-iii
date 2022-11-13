@@ -41,7 +41,7 @@ input {
     display: inline-block;
     color: red;
     transition: all 1s ease-in-out;
-    box-shadow: rgba(140, 17, 17, 0.774) 0px 5px 15px;;
+    box-shadow: rgba(140, 17, 17, 0.532) 0px 5px 15px;;
 }
 
 .text_card {
