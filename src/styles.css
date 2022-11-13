@@ -22,6 +22,10 @@ body {
 h1 {
     padding: 2rem;
 }
+
+.title {
+    font-size: 20pt;
+}
 .container {
     text-align: center;
     font-family: Raleway;
@@ -30,6 +34,10 @@ h1 {
 
 input {
     margin: 1rem;
+}
+
+h2{
+    margin-top: 2rem;
 }
 
 .card {
@@ -44,6 +52,10 @@ input {
     box-shadow: rgba(140, 17, 17, 0.532) 0px 5px 15px;;
 }
 
+hr {
+    width: 80%;
+    margin: 0 auto;
+}
 .text_card {
     line-height: 1.2rem;
     letter-spacing: 0.1rem;

@@ -41,7 +41,7 @@ function App(){
 
   return (
     <div className="container">
-      <h1 className="title">Músicas favoritas</h1>
+      <h1 className="title">Adicionar músicas</h1>
       <form className="form" onSubmit={handleSubmit}>
         <div className="container_input_1">
           <label>Nome da Música:<input type="text" value={formData.song} onChange={(event)=> setFormData({...formData, song:event.target.value})} /></label>
@@ -54,9 +54,9 @@ function App(){
     
         <input className="button" type="submit" value="Adicionar"/>
       </form>
+<hr />
 
-
-
+      <h2>Músicas Favoritas</h2>
       {infos.map((info) => (
         <Card song={info.song.toUpperCase()} band={info.band.toUpperCase()} album={info.album.toUpperCase()} urlAlbum={info.urlAlbum}/>
       ))}
